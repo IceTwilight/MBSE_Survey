@@ -1,0 +1,98 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td { margin:0; padding:0; }
+body { background:#fff; color:#555; font-size:14px; font-family: Verdana, Arial, Helvetica, sans-serif; }
+td,th,caption { font-size:14px; }
+h1, h2, h3, h4, h5, h6 { font-weight:normal; font-size:100%; }
+address, caption, cite, code, dfn, em, strong, th, var { font-style:normal; font-weight:normal;}
+a { color:#555; text-decoration:none; }
+a:hover { text-decoration:underline; }
+img { border:none; }
+ol,ul,li { list-style:none; }
+input, textarea, select, button { font:14px Verdana,Helvetica,Arial,sans-serif; }
+table { border-collapse:collapse; }
+html {overflow-y: scroll;} 
+
+.clearfix:after {content: "."; display: block; height:0; clear:both; visibility: hidden;}
+.clearfix { *zoom:1; }
+ol li{
+	list-style-type: decimal;
+}
+
+#header{
+	font:italic bold 30px/60px 'Times','sans-serif';
+	margin:20px 50px 20px 30px;
+
+}
+
+.question{
+	font: normal normal 15px/30px 'Times','sans-serif';
+	margin: 50px 50px;
+	border: 2px solid blue;
+}
+
+.q{
+	font:normal normal 15px/30px 'Times','sans-serif';
+	margin: 0 15%;
+	padding: 0 auto;
+}
+
+.choice{
+	font:normal normal 15px/30px 'Times','sans-serif';
+	margin: 0 40%;
+
+}
+h2{
+
+}
+
+h4{
+	font:normal bold 20px/25px 'Times','sans-serif';
+	margin: 0 10%;
+}
+
+#page_index{
+	font:normal bold 20px/25px 'Times','sans-serif';
+	margin:10px 45%;
+}
+
+.NextPage{
+	float: right;
+	margin: 0 10% 0 0;
+}
+
+.PrePage{
+	float: left;
+	margin: 0 0 0 10%;
+}
+
+.HomePage{
+	float: right;
+	margin: 0 10% 20px 0;
+}
+
+input{
+	border:3px solid #dfdfdf
+}
+
+.submit{
+	float: right;
+	margin: 0 10% 0 0;
+}
+
+.Tarea{
+	margin: 0 15% 50px 15%;
+	height: 120px;
+	width: 700px;
+}
+.start{
+	margin: 30px 45% 30px 35%;
+	font:normal bold 30px/80px 'Times','sans-serif';
+	height: 120px;
+}
+.welcome_title{
+	margin: 30px 45% 30px 45%;
+	font:italic bold 40px/60px 'Times','sans-serif'
+}
+.welcome_content{
+	margin: 30px 45% 30px 15%;
+	font:italic bold 20px/60px 'Times','sans-serif'
+}
